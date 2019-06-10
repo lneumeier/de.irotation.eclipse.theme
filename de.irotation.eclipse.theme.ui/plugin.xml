@@ -10,7 +10,7 @@
       </theme>
       <theme
             basestylesheeturi="css/dark.css"
-            id="de.irotation.eclipse.theme"
+            id="de.irotation.eclipse.theme.dark"
             label="IRotation Dark">
       </theme>
    </extension>

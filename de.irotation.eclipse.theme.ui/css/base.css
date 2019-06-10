@@ -1,5 +1,5 @@
 .MTrimmedWindow { 
-  background-color: '#de-irotation-eclipse-ui-themes-SHELL_BG'; 
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG'; 
 }
 
 .MTrimmedWindow.topLevel {
@@ -11,11 +11,11 @@
 
 .MPartStack {
   swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
-  swt-unselected-tabs-color: '#de-irotation-eclipse-ui-themes-SHELL_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' 99% 100%;
-  swt-outer-keyline-color: '#de-irotation-eclipse-ui-themes-PART_BORDER';
-  swt-inner-keyline-color: '#de-irotation-eclipse-ui-themes-PART_BORDER';
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
+  swt-outer-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-inner-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
   padding: 2px 2px 2px 2px; 
-  swt-tab-outline: '#de-irotation-eclipse-ui-themes-PART_BORDER';
+  swt-tab-outline: '#de-irotation-eclipse-theme-PART_BORDER';
   swt-shadow-visible: false;
   swt-mru-visible: false; 
   swt-corner-radius: 6px;
@@ -23,16 +23,16 @@
 }
 
 .MPartStack.active {
-  swt-unselected-tabs-color: '#de-irotation-eclipse-ui-themes-ACTIVE_UNSELECTED_TOOLBAR_1' '#de-irotation-eclipse-ui-themes-ACTIVE_UNSELECTED_TOOLBAR_2' '#de-irotation-eclipse-ui-themes-PART_BG' 99% 100%;
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-ACTIVE_UNSELECTED_TOOLBAR_1' '#de-irotation-eclipse-theme-ACTIVE_UNSELECTED_TOOLBAR_2' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
 }
 
 .MPartStack.empty {
-  swt-unselected-tabs-color: '#de-irotation-eclipse-ui-themes-SHELL_BG' '#de-irotation-eclipse-ui-themes-SHELL_BG' '#de-irotation-eclipse-ui-themes-SHELL_BG' 99% 100%;
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-SHELL_BG' 99% 100%;
 } 
 
 #PerspectiveSwitcher  {
-  eclipse-perspective-keyline-color: '#de-irotation-eclipse-ui-themes-SHELL_BG';
-  background-color: '#de-irotation-eclipse-ui-themes-SHELL_BG';
+  eclipse-perspective-keyline-color: '#de-irotation-eclipse-theme-SHELL_BG';
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG';
   handle-image: none; 
 }
 
@@ -62,12 +62,12 @@ CTabItem,
 CTabItem CLabel {
   font-style: normal;
   font-weight: normal;
-  color: '#de-irotation-eclipse-ui-themes-FG'; 
+  color: '#de-irotation-eclipse-theme-FG'; 
 }
 
 CTabItem:selected,
 CTabItem:selected CLabel {
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 CTabItem.busy {
@@ -79,20 +79,20 @@ CTabItem.highlighted {
 }
 
 .MTrimBar {
-  background-color: '#de-irotation-eclipse-ui-themes-SHELL_BG'; 
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG'; 
 }
 
 .MTrimBar#org-eclipse-ui-main-toolbar {
-  background-color: '#de-irotation-eclipse-ui-themes-SHELL_BG'; 
+  background-color: '#de-irotation-eclipse-theme-SHELL_BG'; 
 }
 
 CTabFolder {
   swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
-  swt-selected-tab-fill: '#de-irotation-eclipse-ui-themes-PART_BG'; 
-  swt-unselected-tabs-color: '#de-irotation-eclipse-ui-themes-SHELL_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' 99% 100%;
-  swt-outer-keyline-color: '#de-irotation-eclipse-ui-themes-PART_BORDER';
-  swt-inner-keyline-color: '#de-irotation-eclipse-ui-themes-PART_BORDER';
-  swt-tab-outline: '#de-irotation-eclipse-ui-themes-PART_BORDER';
+  swt-selected-tab-fill: '#de-irotation-eclipse-theme-PART_BG'; 
+  swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
+  swt-outer-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-inner-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  swt-tab-outline: '#de-irotation-eclipse-theme-PART_BORDER';
   padding: 2px 2px 2px 2px;
   swt-corner-radius: 6px;
 }
@@ -102,107 +102,107 @@ CTabFolder.MArea .MPartStack, CTabFolder.MArea .MPartStack.active {
 }
 
 CTabFolder Canvas {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Tree {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';  
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';  
 }
 
 Table{
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';  
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';  
 }
 
 Form {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';   
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';   
 }
 
 Form Composite {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG';  
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Form FormHeading {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Form FormHeading ToolBar {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG'; 
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG'; 
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Form FormHeading TitleRegion {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG'; 
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG'; 
 }
 
 Form FormHeading TitleRegion Label {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG'; 
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG'; 
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Form FormHeading TitleRegion BusyIndicator {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG'; 
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG'; 
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Section {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';  
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Section Composite {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG';  
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
 }
   
 Section Composite Button {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';  
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';  
 }
 
 Section Composite Label {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG';  
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 Section Composite Hyperlink {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG' '#de-irotation-eclipse-ui-themes-PART_BG'; 
-  color: '#de-irotation-eclipse-ui-themes-FG'; 
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG'; 
+  color: '#de-irotation-eclipse-theme-FG'; 
 }
 
 Sash {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 FormText {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';  
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 #org-eclipse-ui-console-ConsoleView .MPart > Composite,
 #org-eclipse-ui-console-ConsoleView .MPart StyledText,
 #org-eclipse-ui-console-ConsoleView .MPart PageBook Label {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 .MPartStack.active #org-eclipse-ui-console-ConsoleView .MPart > Composite,
 .MPartStack.active #org-eclipse-ui-console-ConsoleView .MPart StyledText,
 .MPartStack.active #org-eclipse-ui-console-ConsoleView .MPart PageBook Label {
-  background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
-  color: '#de-irotation-eclipse-ui-themes-FG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';
 }
 
 StyledText {
   swt-scrollbar-themed: true;
-  swt-scrollbar-background-color: '#de-irotation-eclipse-ui-themes-PART_BG';
+  swt-scrollbar-background-color: '#de-irotation-eclipse-theme-PART_BG';
   swt-scrollbar-foreground-color: #000000;
   swt-scrollbar-width: 4px;
   swt-scrollbar-border-radius: 0px;
