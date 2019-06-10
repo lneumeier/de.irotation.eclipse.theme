@@ -1,55 +1,62 @@
 @import url("platform:/plugin/de.irotation.eclipse.ui.themes/css/base.css");
 
-ThemesExtension { 
+ThemesExtension {
   color-definition:
     '#de-irotation-eclipse-ui-themes-FG',
     '#de-irotation-eclipse-ui-themes-SHELL_BG',
+    '#de-irotation-eclipse-ui-themes-INACTIVE_BG',
     '#de-irotation-eclipse-ui-themes-PART_BG',
     '#de-irotation-eclipse-ui-themes-PART_BORDER',
-    '#de-irotation-eclipse-ui-themes-ACTIVE_UNSELECTED_TOOLBAR_1',
-    '#de-irotation-eclipse-ui-themes-ACTIVE_UNSELECTED_TOOLBAR_2'
+    '#de-irotation-eclipse-ui-themes-INPUT_BG',
+    '#de-irotation-eclipse-ui-themes-LINK_COLOR'
   ;
 }
 
 ColorDefinition#de-irotation-eclipse-ui-themes-FG {
-  color: #ffffff;
+  color: #abb2bf;
   category: '#org-eclipse-ui-presentation-default';
   label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=FG');
 }
 
 ColorDefinition#de-irotation-eclipse-ui-themes-SHELL_BG {
-  color: #565656;
+  color: #404754;
   category: '#org-eclipse-ui-presentation-default';
   label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=SHELL_BG');
 }
 
+ColorDefinition#de-irotation-eclipse-ui-themes-INACTIVE_BG {
+  color: #22252c;
+  category: '#org-eclipse-ui-presentation-default';
+  label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=INACTIVE_BG');
+}
+
 ColorDefinition#de-irotation-eclipse-ui-themes-PART_BG {
-  color: #424242;
+  color: #292c34;
   category: '#org-eclipse-ui-presentation-default';
   label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=PART_BG');
 }
 
 ColorDefinition#de-irotation-eclipse-ui-themes-PART_BORDER {
-  color: #999999;
+  color: #181a1f;
   category: '#org-eclipse-ui-presentation-default';
   label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=PART_BORDER');
 }
 
-ColorDefinition#de-irotation-eclipse-ui-themes-ACTIVE_UNSELECTED_TOOLBAR_1 {
-  color: #999999;
+ColorDefinition#de-irotation-eclipse-ui-themes-INPUT_BG {
+  color: #1e1f24;
   category: '#org-eclipse-ui-presentation-default';
-  label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=ACTIVE_UNSELECTED_TOOLBAR_1');
+  label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=INPUT_BG');
 }
 
-ColorDefinition#de-irotation-eclipse-ui-themes-ACTIVE_UNSELECTED_TOOLBAR_2 {
-  color: #565656;
+ColorDefinition#de-irotation-eclipse-ui-themes-LINK_COLOR {
+  color: #61afef;
   category: '#org-eclipse-ui-presentation-default';
-  label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=ACTIVE_UNSELECTED_TOOLBAR_2');
+  label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=LINK_COLOR');
 }
 
-IEclipsePreferences#org-eclipse-ui-editors:de-irotation-eclipse-ui-themes { 
+IEclipsePreferences#org-eclipse-ui-editors:de-irotation-eclipse-ui-themes {
   preferences:
     'AbstractTextEditor.Color.Background.SystemDefault=false'
-    'AbstractTextEditor.Color.Background=66,66,66'
-    'lineNumberColor=0,0,0'
+    'AbstractTextEditor.Color.Background=40,44,52'
+    'lineNumberColor=171,178,191'
 }
