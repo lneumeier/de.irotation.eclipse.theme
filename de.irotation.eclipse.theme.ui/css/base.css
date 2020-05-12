@@ -199,12 +199,3 @@ FormText {
   background-color: '#de-irotation-eclipse-theme-PART_BG';
   color: '#de-irotation-eclipse-theme-FG';
 }
-
-StyledText {
-  swt-scrollbar-themed: true;
-  swt-scrollbar-background-color: '#de-irotation-eclipse-theme-PART_BG';
-  swt-scrollbar-foreground-color: #000000;
-  swt-scrollbar-width: 4px;
-  swt-scrollbar-border-radius: 0px;
-  swt-scrollbar-mouse-near-scroll-width: 12px;
-}
