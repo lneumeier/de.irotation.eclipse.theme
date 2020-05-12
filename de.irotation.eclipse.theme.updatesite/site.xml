@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.irotation.eclipse.theme_1.0.2.jar" id="de.irotation.eclipse.theme" version="1.0.2">
+   <feature url="features/de.irotation.eclipse.theme_1.0.3.jar" id="de.irotation.eclipse.theme" version="1.0.3">
       <category name="Eclipse Theme"/>
    </feature>
    <category-def name="Eclipse Theme" label="Eclipse Theme"/>

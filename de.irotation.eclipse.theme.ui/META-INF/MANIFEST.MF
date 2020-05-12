@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: IRotation Theme UI
 Bundle-SymbolicName: de.irotation.eclipse.theme.ui;singleton:=true
-Bundle-Version: 1.0.2
+Bundle-Version: 1.0.3
 Bundle-Vendor: Lars Neumeier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.eclipse.e4.ui.css.swt.theme;bundle-version="0.9.300"
 Automatic-Module-Name: de.irotation.eclipse.theme.ui
