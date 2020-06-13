@@ -11,6 +11,7 @@
 
 .MPartStack {
   swt-tab-renderer: url('bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+  swt-selected-tab-fill: '#de-irotation-eclipse-theme-PART_BG'; 
   swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
   swt-outer-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
   swt-inner-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
@@ -18,7 +19,7 @@
   swt-tab-outline: '#de-irotation-eclipse-theme-PART_BORDER';
   swt-shadow-visible: false;
   swt-mru-visible: false; 
-  swt-corner-radius: 6px;
+  swt-corner-radius: 0px;
   font-family: '#org-eclipse-ui-workbench-TAB_TEXT_FONT';
 }
 
@@ -92,9 +93,12 @@ CTabFolder {
   swt-unselected-tabs-color: '#de-irotation-eclipse-theme-SHELL_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' 99% 100%;
   swt-outer-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
   swt-inner-keyline-color: '#de-irotation-eclipse-theme-PART_BORDER';
+  padding: 0px; 
   swt-tab-outline: '#de-irotation-eclipse-theme-PART_BORDER';
-  padding: 2px 2px 2px 2px;
-  swt-corner-radius: 6px;
+  swt-shadow-visible: false;
+  swt-mru-visible: false; 
+  swt-corner-radius: 0px;
+  font-family: '#org-eclipse-ui-workbench-TAB_TEXT_FONT';
 }
 
 CTabFolder.MArea .MPartStack, CTabFolder.MArea .MPartStack.active {
@@ -116,9 +120,19 @@ Table{
   color: '#de-irotation-eclipse-theme-FG';  
 }
 
-Form {
+ScrolledForm {
   background-color: '#de-irotation-eclipse-theme-PART_BG';
   color: '#de-irotation-eclipse-theme-FG';   
+}
+
+Form {
+  background: '#de-irotation-eclipse-theme-PART_BG';
+  background-color: '#de-irotation-eclipse-theme-PART_BG';
+  text-background-color: '#de-irotation-eclipse-theme-PART_BG';
+  color: '#de-irotation-eclipse-theme-FG';   
+  swt-background-mode: 'force';
+  h-bottom-keyline-1-color: '#de-irotation-eclipse-theme-PART_BG';
+  h-bottom-keyline-2-color: '#de-irotation-eclipse-theme-PART_BORDER';
 }
 
 Form Composite {
@@ -126,7 +140,18 @@ Form Composite {
   color: '#de-irotation-eclipse-theme-FG';
 }
 
+Form Composite Label {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Form Composite Button {
+  background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';  
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
 Form FormHeading {
+  background: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
   background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
   color: '#de-irotation-eclipse-theme-FG';
 }
@@ -154,6 +179,10 @@ Form FormHeading TitleRegion BusyIndicator {
 Section {
   background-color: '#de-irotation-eclipse-theme-PART_BG';  
   color: '#de-irotation-eclipse-theme-FG';
+  background-color-titlebar: '#de-irotation-eclipse-theme-PART_BG';
+  background-color-gradient-titlebar: '#de-irotation-eclipse-theme-PART_BG';
+  border-color-titlebar: '#de-irotation-eclipse-theme-PART_BG';
+  swt-titlebar-color: '#de-irotation-eclipse-theme-FG';
 }
 
 Section Composite {
@@ -173,7 +202,6 @@ Section Composite Label {
 
 Section Composite Hyperlink {
   background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG'; 
-  color: '#de-irotation-eclipse-theme-FG'; 
 }
 
 Sash {

@@ -46,17 +46,3 @@ ColorDefinition#de-irotation-eclipse-theme-ACTIVE_UNSELECTED_TOOLBAR_2 {
   category: '#org-eclipse-ui-presentation-default';
   label: url('platform:/plugin/de.irotation.eclipse.ui.themes?message=ACTIVE_UNSELECTED_TOOLBAR_2');
 }
-
-IEclipsePreferences#org-eclipse-ui-editors:de-irotation-eclipse-ui-theme { 
-  preferences:
-    'AbstractTextEditor.Color.Background.SystemDefault=false'
-    'AbstractTextEditor.Color.Background=200,200,200'
-    'lineNumberColor=0,0,0'
-}
-
-IEclipsePreferences#org-eclipse-ui-workbench:de-irotation-eclipse-ui-theme { 
-  preferences:
-    'DECORATIONS_COLOR=128,64,0'
-    'org.eclipse.egit.ui.IgnoredResourceBackgroundColor=200,200,200'
-		'org.eclipse.egit.ui.UncommittedChangeBackgroundColor=200,200,200'
-}

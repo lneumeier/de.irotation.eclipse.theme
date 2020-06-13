@@ -8,11 +8,12 @@
             id="de.irotation.eclipse.theme.grey"
             label="IRotation Grey">
       </theme>
-      <theme
-            basestylesheeturi="css/dark.css"
-            id="de.irotation.eclipse.theme.dark"
-            label="IRotation Dark">
-      </theme>
+      <stylesheet
+            uri="css/preferences.css">
+         <themeid
+               refid="de.irotation.eclipse.theme.grey">
+         </themeid>
+      </stylesheet>
    </extension>
 
 </plugin>
