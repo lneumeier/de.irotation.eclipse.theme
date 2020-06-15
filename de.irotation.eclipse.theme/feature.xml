@@ -2,7 +2,7 @@
 <feature
       id="de.irotation.eclipse.theme"
       label="IRotation Theme"
-      version="2.0.2"
+      version="2.0.3"
       provider-name="Lars Neumeier">
 
    <description>
@@ -16,7 +16,7 @@
    <license url="https://github.com/lneumeier/de.irotation.eclipse.theme/blob/master/LICENSE">
       MIT License
 
-Copyright (c) 2019 Lars Neumeier
+Copyright (c) 2020 Lars Neumeier
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the &quot;Software&quot;), to deal
