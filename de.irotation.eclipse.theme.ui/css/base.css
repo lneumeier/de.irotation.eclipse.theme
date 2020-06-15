@@ -200,6 +200,21 @@ Section Composite Label {
   color: '#de-irotation-eclipse-theme-FG';
 }
 
+Section Composite Tree {
+  background-color: '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Table {
+  background-color: '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
+Section Composite Composite * StyledText {
+  background-color: '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER' '#de-irotation-eclipse-theme-PART_BORDER';
+  color: '#de-irotation-eclipse-theme-FG';
+}
+
 Section Composite Hyperlink {
   background-color: '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG' '#de-irotation-eclipse-theme-PART_BG';
 }
